@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Python: Puzzle",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/puzzle.py",
+            "args": ["${workspaceFolder}/data/init/init1.txt", "${workspaceFolder}/data/goal/goal1.txt"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
